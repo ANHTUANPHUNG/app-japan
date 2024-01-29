@@ -11,10 +11,10 @@ export function TVNV({}) {
   const vietnamese = [
     { id: 1, key: "buổi sáng", value: "あ さ" },
     { id: 2, key: "ngôi nhà", value: "い え" },
-    { id: 3, key: "con suối", value: "う け" },
+    { id: 3, key: "con suối", value: "い け" },
     { id: 4, key: "cây", value: "き" },
     { id: 5, key: "cỏ", value: "く さ" },
-    { id: 6, key: "lá", value: "は っ ば" },
+    { id: 6, key: "lá", value: "は っ ぱ" },
     { id: 7, key: "nhà ga", value: "え き" },
     { id: 8, key: "cái ô", value: "か さ" },
     { id: 9, key: "giọng nói", value: "こ え" },
@@ -25,11 +25,11 @@ export function TVNV({}) {
     { id: 14, key: "muối", value: "し お" },
     { id: 15, key: "bò", value: "う し" },
     { id: 16, key: "thế giới", value: "せ か い" },
-    { id: 17, key: "đò ngọt, bánh kẹo", value: "お か し" },
+    { id: 17, key: "đồ ngọt, bánh kẹo", value: "お か し" },
     { id: 18, key: "chào buổi sáng", value: "お ひょ う ご ざ い ま す " },
     { id: 19, key: "chào buổi trưa", value: "こ ん に ち は" },
     { id: 20, key: "chào buổi tối", value: "こ ん ば ん は" },
-    { id: 21, key: "chúc ngủ ngon", value: "こ や す み な さ い" },
+    { id: 21, key: "chúc ngủ ngon", value: "お や す み な さ い" },
     { id: 22, key: "lối vào", value: "い り ぐ ち" },
     { id: 23, key: "lối ra", value: "ど ぐ ち" },
     { id: 24, key: "cửa sổ", value: "ま ど" },
@@ -49,7 +49,7 @@ export function TVNV({}) {
     { id: 39, key: "cái đuôi", value: "し っ ぽ" },
     { id: 40, key: "1", value: "い ち" },
     { id: 41, key: "2", value: "に" },
-    { id: 42, key: "3", value: "き ん" },
+    { id: 42, key: "3", value: "さ ん" },
     { id: 43, key: "4", value: "よ ん, し" },
     { id: 44, key: "5", value: "ご" },
     { id: 45, key: "6", value: "ろ く" },
@@ -72,7 +72,7 @@ export function TVNV({}) {
     { id: 62, key: "4 người", value: "よ に ん" },
     { id: 63, key: "1 tầng", value: "い っ か い" },
     { id: 64, key: "3 tầng", value: "さ ん が い" },
-    { id: 65, key: "6 tầng", value: "ら っ か い" },
+    { id: 65, key: "6 tầng", value: "ろ っ か い" },
     { id: 66, key: "8 tầng", value: "は っ か い" },
     { id: 67, key: "tôi", value: "わ た し" },
     { id: 68, key: "bạn", value: "あ な た" },
@@ -81,26 +81,30 @@ export function TVNV({}) {
     { id: 71, key: "chỉ trẻ em", value: "ちゃ ん, く ん" },
     { id: 72, key: "chỉ người nước", value: "じ ん" },
     { id: 73, key: "thầy, cô", value: "せ ん せ い" },
-    { id: 74, key: "giáo viên", value: "きょ し" },
-    { id: 75, key: "học sinh, sinh viên", value: "が く せ" },
+    { id: 74, key: "giáo viên", value: "きょ う し" },
+    { id: 75, key: "học sinh, sinh viên", value: "が く せ い" },
     { id: 76, key: "nhân viên công ty", value: "か い しゃ い ん" },
     { id: 77, key: "nhân viên kèm tên công ty", value: "しゃ い ん" },
     { id: 78, key: "nhân viên ngân hàng", value: "ぎ ん こ う い ん" },
     { id: 79, key: "bác sĩ", value: "い しゃ" },
     { id: 80, key: "nhà nghiên cứu", value: "け ん きゅ う しゃ" },
     { id: 81, key: "trường đại học", value: "だ い が く" },
-    { id: 82, key: "bệnh viện", value: "びょ い ん" },
+    { id: 82, key: "bệnh viện", value: "びょ う い ん" },
     { id: 83, key: "ai", value: "だ れ ( ど な た)" },
     { id: 84, key: "mấy tuổi", value: "な ん さ い ( お い く つ)" },
-    { id: 85, key: "vâng", value: "け い" },
+    { id: 85, key: "vâng", value: "は い" },
     { id: 86, key: "không", value: "い い え" },
-    { id: 87, key: "rất hân hạnh được gặp", value: "け じ め ま し て" },
+    { id: 87, key: "rất hân hạnh được gặp", value: "は じ め ま し て" },
     { id: 88, key: "tôi đến từ", value: "か ら き ま し た" },
-    { id: 89, key: "rất vui được làm quen( rất mong được giúp đỡ)", value: "ど う ぞ ろ し く お ね が い し ま す" },
-    { id: 90, key: "xin lỗi để hỏi ", value: "りゃ" },
+    {
+      id: 89,
+      key: "rất vui được làm quen( rất mong được giúp đỡ)",
+      value: "ど う ぞ ろ し く お ね が い し ま す",
+    },
+    { id: 90, key: "xin lỗi để hỏi", value: "し つ れ い で す が" },
     { id: 91, key: "tên là gì", value: "お な ま え け" },
-    { id: 92, key: "đầy là ai đó", value: "こ ち ら け" },
-    { id: 93, key: "việt nam", value: "ベ ト ノ ム" },
+    { id: 92, key: "đây là ai đó", value: "こ ち ら は" },
+    { id: 93, key: "việt nam", value: "ベ ト ナ ム" },
     { id: 94, key: "mỹ", value: "ア メ リ カ" },
     { id: 95, key: "anh", value: "イ ギ リ ス" },
     { id: 96, key: "ấn độ", value: "イ ン ド" },
@@ -121,7 +125,7 @@ export function TVNV({}) {
     { id: 110, value: "じ しょ", key: "từ điển" },
     { id: 112, value: "し ん ぶ ん", key: "báo" },
     { id: 113, value: "ノ ー ト", key: "vở" },
-    { id: 114, value: "て ちょ", key: "sổ tay" },
+    { id: 114, value: "て ちょ う", key: "sổ tay" },
     { id: 115, value: "め い し", key: "danh thiếp" },
     { id: 116, value: "カ ー ド", key: "thẻ" },
     { id: 118, value: "ボ ー プ ペ ン", key: "bút bi" },
@@ -144,21 +148,33 @@ export function TVNV({}) {
     { id: 135, value: "あ の う", key: "à, ờ" },
     { id: 136, value: "え つ", key: "hả" },
     { id: 137, value: "ど う ぞ", key: "xin mời" },
-    { id: 138, value: "ど う も あ り が と う ご ざ い ま す", key: "xin chân thành cảm ơn, cảm ơn rất nhiều" },
+    {
+      id: 138,
+      value: "ど う も あ り が と う ご ざ い ま す",
+      key: "xin chân thành cảm ơn, cảm ơn rất nhiều",
+    },
     { id: 139, value: "そ う で す か", key: "thế à" },
     { id: 140, value: "ち が い ま す", key: "không phải" },
     { id: 141, value: "こ れ か ら", key: "từ nay" },
-    { id: 142, value: "こ れ か ら お せ わ に な り ま す", key: "từ nay rất mong nhận được sự giúp đỡ" },
+    {
+      id: 142,
+      value: "こ れ か ら お せ わ に な り ま す",
+      key: "từ nay rất mong nhận được sự giúp đỡ",
+    },
     { id: 143, value: "こ ち ら こ そ", key: "chính tôi" },
-    { id: 144, value: "こ ち ら こ そ ど う ぞ ろ し く お ね が い し ま す", key: "chính tôi mới là người mong nhận được sự giúp đỡ" },
+    {
+      id: 144,
+      value: "こ ち ら こ そ ど う ぞ ろ し く お ね が い し ま す",
+      key: "chính tôi mới là người mong nhận được sự giúp đỡ",
+    },
     { id: 145, value: "こ こ", key: "chỗ này" },
     { id: 146, value: "そ こ", key: "chỗ đó" },
-    { id: 147, value: "あ こ", key: "chỗ kia" },
+    { id: 147, value: "あ そ こ", key: "chỗ kia" },
     { id: 148, value: "ど こ", key: "chỗ nào" },
     { id: 149, value: "きょ し つ", key: "lớp học, phòng học" },
     { id: 150, value: "しょ く ど", key: "nhà ăn" },
     { id: 151, value: "じ む しょ", key: "văn phòng" },
-    { id: 152, value: "か い ぎ つ", key: "phòng họp" },
+    { id: 152, value: "か い ぎ し つ", key: "phòng họp" },
     { id: 153, value: "う け つ け", key: "lễ tân, thường trực" },
     { id: 154, value: "ロ ビ ー", key: "hành lang, đại sảnh" },
     { id: 155, value: "へ や", key: "căn phòng" },
@@ -167,8 +183,8 @@ export function TVNV({}) {
     { id: 158, value: "エ レ ベ ー タ ー", key: "thang máy" },
     { id: 159, value: "エ ス カ レ ー タ ー", key: "thang cuốn" },
     { id: 160, value: "じ ど う", key: "tự động" },
-    { id: 161, value: "じ ど は ん ば う い き", key: "máy bán hàng tự động" },
-    { id: 162, value: "だ ん わ", key: "điện thoại" },
+    { id: 161, value: "じ ど う は ん ば う い き", key: "máy bán hàng tự động" },
+    { id: 162, value: "で ん わ", key: "điện thoại" },
     { id: 163, value: "く に", key: "nước" },
     { id: 164, value: "か い さ", key: "công ty" },
     { id: 165, value: "う ち", key: "nhà" },
@@ -185,7 +201,6 @@ export function TVNV({}) {
     { id: 177, value: "み せ て く だ さ い", key: "を + cho tôi xem " },
     { id: 178, value: "しゃ", key: "thế thì" },
     { id: 179, value: "く だ さ い", key: "を + cho tôi" },
-    
   ];
   useEffect(() => {
     const shuffleArray = (array) => {
@@ -254,6 +269,9 @@ export function TVNV({}) {
             <NavLink to={"/TVVN"}>
               <h4 style={{ cursor: "pointer" }}>Từ vựng Việt Nhật</h4>
             </NavLink>
+            <NavLink to={"/TV"}>
+            <h4 style={{ cursor: "pointer" }}>Từ vựng </h4>
+            </NavLink>
           </div>
           {characters.map((row, rowIndex) => (
             <div key={rowIndex} className="character-row">
@@ -269,8 +287,9 @@ export function TVNV({}) {
                     value={userInputs[id] || ""}
                     onChange={(e) => handleInputChange(id, e.target.value)}
                     onKeyDown={handleKeyDown}
-                  /><br/>
-                  {errorCells.length !=0 ? key:""}
+                  />
+                  <br />
+                  {errorCells.length != 0 ? key : ""}
                 </div>
               ))}
             </div>

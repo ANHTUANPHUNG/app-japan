@@ -286,6 +286,9 @@ export function NV({}) {
             <NavLink to={"/TVVN"}>
               <h4 style={{ cursor: "pointer" }}>Từ vựng Việt Nhật</h4>
             </NavLink>
+            <NavLink to={"/TV"}>
+            <h4 style={{ cursor: "pointer" }}>Từ vựng </h4>
+            </NavLink>
           </div>
           {characters.map((row, rowIndex) => (
             <div key={rowIndex} className="character-row">
